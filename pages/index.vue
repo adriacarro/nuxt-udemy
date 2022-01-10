@@ -1,8 +1,6 @@
 <template>
   <div>
-    <Tutorial/>
-    <NuxtLink to="/users">Users list</NuxtLink>
-    <NuxtLink to="/products">Products list</NuxtLink>
+    <h1>Hi!</h1>
   </div>
 </template>
 

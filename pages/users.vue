@@ -2,9 +2,10 @@
   <div>
     <input type="number" v-model.number="id">
     <button @click="showUser">Load user</button>
-    <nuxt-child />
+    <NuxtChild />
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -18,6 +19,7 @@ export default {
         this.$router.push(`/users/${this.id}`)
       }
     }
-  }
+  },
+  layout: 'users'
 }
 </script>

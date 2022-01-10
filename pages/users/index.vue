@@ -1,3 +1,3 @@
 <template>
-  <h1>Users page</h1>
+  <p>Enter one user ID</p>
 </template>

@@ -14,6 +14,7 @@ export default {
     showUsers() {
       this.$router.push('/users')
     }
-  }
+  },
+  layout: 'users'
 }
 </script>
